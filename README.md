@@ -119,14 +119,14 @@ B站首页充斥着大量的动画效果。目前动画使用的主要有三种�
 
 3. 通过`vue`提供的动画方式。
 
-   
+   ```javascript
    <transition name="fade">
     <div v-if="isSort">
         <div class="tip"></div>
         <div class="custom-bg"></div>
     </div>
    </transition>
-   
+   ```
 
 ## 样式
 
